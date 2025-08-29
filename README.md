@@ -1,57 +1,87 @@
-■ Sports Events Made Easy
-■ About the Project
-Our mission is to simplify the organization of sports events for everyone.
-We developed a Sports Management System that helps users create, manage, and track sports
-events while handling essential tasks like:
-- Event creation
-- Player/team registration
-- Invitations
-- Rewards distribution
-With this system, anyone can organize a sports event — from small football tournaments to large
-city marathons — without facing the typical hardships of event management.
-■ Project Goals
-- Save time for event organizers
-- Provide a simple and intuitive platform
-- Support both small-scale and large-scale events
-- Ensure smooth communication with participants
-■■ Features
-- User Registration & Login
-- Event Creation (Football, Cricket, Running, etc.)
-- Admin Dashboard to manage players, teams, and events
-- Reward & Score Management
-- Invitation system for participants
-■ Tech Stack
-- Backend: Python (Flask)
-- Frontend: HTML, CSS, JavaScript
-- Database: SQLite (for demo, can be upgraded to MySQL/PostgreSQL)
-- Tools: VS Code, Git, Postman (for API testing)
-■ Installation & Setup
-1. Clone the repository:
-git clone https://github.com/your-repo/sports-management-system.git
-cd sports-management-system
-2. Create and activate virtual environment:
-python -m venv .venv
-.venv\Scripts\activate # On Windows
-source .venv/bin/activate # On Linux/Mac
-3. Install dependencies:
-pip install flask
-4. Run the application:
-python app.py
-5. Open in browser:
-http://127.0.0.1:5000/
-■ Usage
-- Visit the Home Page for system overview
-- Use the Register Page to add new users
-- Log in as Admin to manage events, teams, and players
-- - Create and track sports events easily
-■■■ Team – CityRunning Project
-Grupo 1, Turma 2
-- João Soares – 79955
-- José Paiva – 84972
-- Pedro Teixeira – 84715
-- Tiago Feitor – 85134
-■ Future Enhancements
-- Mobile app version
-- Online payment integration for event registration
-- Real-time event tracking with GPS
-- Automated ranking & statistics dashboard
+🔹 Introduction
+
+Organizing sports events involves multiple tasks such as managing players, forming teams, scheduling matches, distributing rewards, and communicating with participants. Traditionally, these processes are manual and time-consuming, leading to confusion and inefficiency.
+
+To solve this, the Sports Management System is developed as a web-based application that simplifies the entire event management process. It provides an easy-to-use platform for both event organizers and participants.
+
+🔹 Objectives of the Project
+
+To automate the process of organizing and managing sports events.
+
+To provide a simple interface for event creation, player registration, and team management.
+
+To help administrators handle invitations, track events, and distribute rewards easily.
+
+To support both small-scale tournaments (e.g., local football matches) and large-scale marathons.
+
+To enhance communication between organizers and participants.
+
+🔹 Features of the System
+
+User Registration & Login – Players and organizers can create accounts to access the platform.
+
+Event Creation – Admins can create new sports events like Football, Cricket, Running, etc.
+
+Player/Team Registration – Participants can register individually or as a team.
+
+Admin Dashboard – The administrator manages players, teams, and event schedules.
+
+Invitation System – Organizers can invite participants to join events.
+
+Rewards & Score Management – Automatic updates of scores and handling reward distribution.
+
+Tracking Events – Allows easy monitoring of ongoing and upcoming events.
+
+🔹 Project Goals
+
+Save time for event organizers.
+
+Provide an intuitive and user-friendly system.
+
+Support different event scales (from small tournaments to city-level marathons).
+
+Ensure smooth communication between participants and organizers.
+
+🔹 Technology Stack
+
+Frontend: HTML, CSS, JavaScript → for user interaction and UI design.
+
+Backend: Python (Flask framework) → for handling requests, logic, and API endpoints.
+
+Database: SQLite (demo version), can be extended to MySQL/PostgreSQL → for storing users, events, teams, and scores.
+
+🔹 System Workflow
+
+User registers → Creates account in the system.
+
+Login → User logs in as player or admin.
+
+Event Creation → Admin creates an event with details like name, type, date, and location.
+
+Player/Team Registration → Users register for events.
+
+Event Tracking → Matches and schedules are updated in real-time.
+
+Rewards Distribution → Winners are assigned rewards after event completion.
+
+🔹 Advantages of the System
+
+Reduces paperwork and manual effort.
+
+Saves time in communication and coordination.
+
+Can handle multiple events simultaneously.
+
+Scalable: Supports both small and large events.
+
+Can be extended with mobile app and online payments.
+
+🔹 Future Enhancements
+
+Mobile application version (Android/iOS).
+
+Online payment integration for event registration.
+
+Real-time event tracking using GPS.
+
+Automated ranking and analytics dashboard.
